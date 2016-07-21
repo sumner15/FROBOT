@@ -1,0 +1,21 @@
+Application:Sequencing:FeedbackTask float PreRunDuration= 8s 2s 0 % // duration of pause preceding first trial
+Application:Sequencing:FeedbackTask float PreFeedbackDuration= 2s 2s 0 % // duration of target display prior to feedback
+Application:Sequencing:FeedbackTask float FeedbackDuration= 5s 3s 0 % // duration of feedback
+Application:Sequencing:FeedbackTask float PostFeedbackDuration= 1s 1s 0 % // duration of result display after feedback
+Application:Sequencing:FeedbackTask float ITIDuration= 2s 1s 0 % // duration of inter-trial interval
+Application:Task:FingerTask int DisplayScore= 1 0 0 1 // 1 to Display Score Statistics 
+Application:Task:FingerTask int Min4Move= 30 0 0 5000 // Minimum finger position change for a response 
+Application:Task:FingerTask int Max4NotMove= 15 0 0 5000 // Maximum finger position change for no response 
+Robot:Location:FingerTask string modelName= brainFINGER // FingerRobot model name
+Robot:Assist:FingerTask int FRobotMove= 1 0 0 1 // Assist?  0= none 1= yes 
+Robot:Assist:FingerTask float Kp= 2.0 2.0 0 2.0 // PD movement proportional error gain 
+Robot:Assist:FingerTask float Kd= 0.2 0.2 0 0.2 // PD movement differential error gain 
+Robot:Assist:FingerTask float MovementDelay= 0.2 0 0 2.0 // Delay of movement (msec) after colored targets 
+Robot:Assist:FingerTask float MovementDuration= 0.7 0 0 2.0 // Total Possible duration (sec) of movement 
+Robot:Assist:FingerTask float MaxTrajDur= 4.0 0 0 5.0 // Maximum duration (sec) of movement 
+Robot:Assist:FingerTask float POSinitial= 0.05 0.9 0.0 1.0 // starting and ending robot positions 
+Robot:Assist:FingerTask float POSmov2= 0.95 0.0 0.0 1.0 // position to move to 
+Robot:Assist:FingerTask float VThresh= 0.1 0.0 0.0 5.0 // velocity threshold for movement 
+Robot:Assist:FingerTask float FThresh= 2.0 0.0 0.0 5.0 // force threshold for movement 
+Robot:Assist:FingerTask float FRMode= 4.0 1.0 1.0 4.0 // 1 user initiated with return 2 autostart return 3 auto no return 4 user initiated no return 
+Robot:Positions:FingerTask int AutoReturn= 1 1 0 1 // 0 no supplemental autoreturn
