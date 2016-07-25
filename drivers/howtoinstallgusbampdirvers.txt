@@ -1,0 +1,3 @@
+easiest procedure
+copy the files in DSPfiles_gusbfile to c:\windows\sysWOW64
+install g.USBamp_Driver_3.12.00_Win64
