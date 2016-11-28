@@ -17,19 +17,4 @@ Load the Phase1_FingerTask16Ch_UCI.prm parameter file.
 Load the corresponding parameter fragement file (C:\FRobot\parms\..) for your 
 experiment (Extend_Fragment.prm or Flex_Fragment.prm)
 
-Verified functioning 5/4/2016
-Bug report sent to Dennis via email 5/4/2016
-
-Verified functioning 5/7/2016
-All bugs should now be fixed. 
-Dennis added in a parameter to allow false movements (they were blocked before)
-
-Verified functioning 5/11/2016
-Dennis added functionality for unassisted (passive robot) movements with auto 
-(active robot) returns. This was not possible before.
-
-Non-functioning 11/21/2016
-Dennis added force logging functionality from the transducers, but it appears
-to crash when the first "go" cue occurs. 
-
 Dennis' dropbox link (as of 11/21/2016): https://www.dropbox.com/sh/vfbi4htbk9d8j2l/AAA6Up7lWZHseEVFpJYXR0fEa?dl=0
