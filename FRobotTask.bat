@@ -26,4 +26,4 @@ cd c:\FRobot\prog
 start operator.exe
 start gUSBampSource.exe 127.0.0.1 
 start ARSignalProcessing.exe 127.0.0.1
-start FRobotTask3_20161123.exe 127.0.0.1
+start FRobotTask3_20161129.exe 127.0.0.1
