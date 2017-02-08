@@ -1,0 +1,8 @@
+Application:Sequencing:FeedbackTask float MinRunLength= % 0 0 % // minimum duration of a run; if blank, NumberOfTrials is used
+Application:Sequencing:FeedbackTask int NumberOfTrials= 5 0 0 % // number of trials; if blank, MinRunLength is used
+Application:Cursor:FingerTask intlist CursorSequence= 15 1 2 3 3 1 2 2 3 1 3 2 1 1 3 2 % % // Fixed sequence of finger cues (empty if random) 
+Robot:Assist:FingerTask int FRobotMove= 0 0 0 2 // Assist?  0= none 1= yes no errors 2= yes allow errors 
+Robot:Assist:FingerTask float POSinitial= 0.95 0.9 0.0 1.0 // starting and ending robot positions 
+Robot:Assist:FingerTask float POSmov2= 0.05 0.0 0.0 1.0 // position to move to 
+Robot:Assist:FingerTask float FRMode= 4.0 1.0 1.0 4.0 // 1 user initiated with return 2 autostart return 3 auto no return 4 user initiated no return 
+Robot:Positions:FingerTask int AutoReturn= 1 1 0 1 // 0 no supplemental autoreturn
