@@ -1,0 +1,1 @@
+Filtering:LinearClassifier matrix Classifier=  1 { input%20channel input%20element%20(bin) output%20channel weight } CP3 18Hz 1  -0.04562807  // Linear classification matrix in sparse representation 
