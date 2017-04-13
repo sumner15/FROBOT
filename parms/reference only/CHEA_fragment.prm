@@ -1,0 +1,1 @@
+Filtering:LinearClassifier matrix Classifier=  7 { input%20channel input%20element%20(bin) output%20channel weight } C3-Cz 18Hz 1   0.00297295 C3-Cz 24Hz 1   0.01285812 C4-Cz 18Hz 1   0.04761710 C4-Cz 21Hz 1   0.00800822 C4-Cz 24Hz 1   0.07368107 CP4-Cz 12Hz 1   0.02995680 CP4-Cz 24Hz 1   0.03246674  // Linear classification matrix in sparse representation 
